@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ai-trends-automation
+        working-directory: ai-trends-automation/ai-trends-automation
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
